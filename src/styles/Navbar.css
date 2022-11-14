@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap");
+a {
+  text-decoration: none;
+  color: #444444;
+}
+
+nav {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: .75em;
+  line-height: 2.0625;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #444444;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+@media only screen and (min-width: 700px) {
+  nav {
+    font-size: 1.2em;
+  }
+
+  nav div {
+    float: left;
+    width: 14%;
+    margin-bottom: 5%;
+  }
+
+
+}
+
+@media only screen and (min-width: 900px) {
+  nav {
+    font-size: 1.3em;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+  }
+  a:hover {
+    font-size: 1.1em;
+  }
+}

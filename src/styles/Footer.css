@@ -1,0 +1,24 @@
+.footer {
+    height: 60px; /* footer height */
+    padding-top: 20px;
+    margin-top: 20px; /* space between content and footer */
+    clear: both;
+    font-size: .9em;
+    font-family: "Manrope";
+}
+
+.iconresize img {
+    width: 30px !important;
+    height: 30px !important;
+    padding: 1em !important;
+    box-shadow: none;
+
+}
+
+p {
+    text-align: center;
+}
+
+a:hover {
+    font-size: .9em;
+  }
