@@ -13,7 +13,7 @@ function Footer() {
         className="iconresize"
         href="mailto:catherinekettner1@gmail.com"
       >
-        <img src={gmailImage} alt="gmail image link" />
+        <img src={gmailImage} alt="gmail link" />
       </a>
       <a
         className="iconresize"

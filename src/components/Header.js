@@ -1,11 +1,14 @@
 import React from "react";
 import headerImage from "../media/bannerphoto.jpg";
 import "../styles/Header.css"
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
     <div className="container">
-        <img src={headerImage} title="Helping Hands Webpage Header Banner" alt="Header image of two hands" className="headerImage"/>
+        <Link to="/home">
+        <img src={headerImage} title="Helping Hands Webpage Header Banner" alt="Header of two hands" className="headerImage"/>
+        </Link>
         <div className="textshadow">
         <h1 className="textshadowcolor">Helping Hands.</h1>
         <h2 className="textshadowcolor">Immigration Resource Center</h2>

@@ -16,7 +16,7 @@ function Navbar() {
             <Link to='/'>Legal</Link>
         </div>
         <div>
-            <Link to='/'>Child</Link>
+            <Link to='/childcare'>Child</Link>
         </div>
         <div>
             <Link to='/'>Medical</Link>
