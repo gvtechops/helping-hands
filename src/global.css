@@ -16,5 +16,39 @@ p {
 }
 
 h3 {
-  font-family: "Manrope";
+  font-family: "Montserrat";
+  clear: both;
+  color: #444444;
+  font-size: 1.3em;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+
+}
+
+.title {
+  font-weight: 800;
+  clear: both;
+  font-size: 2.2em;
+  line-height: 0.5em;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #444444;
+  box-shadow: none !important;
+  padding: 2%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a:hover {
+color: gray;
+font-style: normal;
+}
+
+a:active {
+  color: gray;
 }

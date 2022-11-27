@@ -7,25 +7,25 @@ function Navbar() {
     <>
       <nav className="navbar">
         <div>
-            <Link to='/'>School</Link>
+            <Link to='/school'>Learn</Link>
         </div>
         <div>
-            <Link to='/'>Job</Link>
+            <Link to='/jobs'>Job</Link>
         </div>
         <div>
-            <Link to='/'>Legal</Link>
+            <Link to='/legal'>Legal</Link>
         </div>
         <div>
             <Link to='/childcare'>Child</Link>
         </div>
         <div>
-            <Link to='/'>Medical</Link>
+            <Link to='/medical'>Medical</Link>
         </div>
         <div>
-            <Link to='/'>Food</Link>
+            <Link to='/food'>Food</Link>
         </div>
         <div>
-            <Link to='/'>Contact</Link>
+            <Link to='/contact'>Contact</Link>
         </div>
       </nav>
     </>
