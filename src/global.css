@@ -15,6 +15,11 @@ p {
   letter-spacing: 0.05em;
 }
 
+a {
+  z-index: 1;
+}
+
+
 h3 {
   font-family: "Montserrat";
   clear: both;
@@ -28,13 +33,14 @@ h3 {
 .title {
   font-weight: 800;
   clear: both;
-  font-size: 2.2em;
+  font-size: 1.3em;
   line-height: 0.5em;
   text-align: center;
   letter-spacing: 0.05em;
   color: #444444;
   box-shadow: none !important;
   padding: 2%;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 /* Clear floats after the columns */
@@ -42,6 +48,12 @@ h3 {
   content: "";
   display: table;
   clear: both;
+}
+
+@media only screen and (min-width: 768px) {
+  .title {
+    font-size: 2em;
+  }
 }
 
 a:hover {
@@ -52,3 +64,4 @@ font-style: normal;
 a:active {
   color: gray;
 }
+

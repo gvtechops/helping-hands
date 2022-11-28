@@ -1,4 +1,3 @@
-import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
 import "./global.css";
@@ -11,13 +10,13 @@ import School from "./pages/school";
 import Medical from "./pages/medical";
 import Food from "./pages/food";
 import Contact from "./pages/contact";
+import FixedNav from "./components/FixedNav";
 
 function App() {
   return (
     <>
       <Router>
-      <Header/>
-        <Navbar />
+        <Header />
         <Routes>
           <Route path="/childcare" element={<Childcare />} />
           <Route path="/food" element={<Food />} />
@@ -29,8 +28,9 @@ function App() {
           <Route path="/medical" element={<Medical />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+        <FixedNav />
       </Router>
-      <Footer/>
+      <Footer />
     </>
   );
 }

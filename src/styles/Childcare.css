@@ -10,18 +10,20 @@
 }
 
 dl {
-    display: table;
-    margin: 0 auto;
-  }
+  display: table;
+  margin: 0 auto;
+}
 
 dt {
-    font-weight: bolder;
-    text-align: left;
+  font-weight: bolder;
+  text-align: left;
 }
 
 .description-paragraphs {
-    text-align: left;
-    letter-spacing: .1em;
+  text-align: center;
+  letter-spacing: 0.1em;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
 .div-line {
@@ -30,8 +32,8 @@ dt {
 }
 
 .access-link {
-    color: #436599 !important;
-    font-weight: bolder;
+  color: #436599 !important;
+  font-weight: bolder;
 }
 
 ul {

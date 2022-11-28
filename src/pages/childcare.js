@@ -4,7 +4,6 @@ import DividingLine from "../media/DividingLine.jpg";
 import MIBridgesLogo from "../media/MIBridgesLogo.jpg";
 import KentCountyHeadstart from "../media/KentCountyHeadstart.jpg";
 import MommyRecharge from "../media/MommyRecharge.jpg";
-import { Link } from "react-router-dom";
 
 function Childcare() {
   return (
@@ -15,11 +14,19 @@ function Childcare() {
           Struggling to get help caring for your child? Access MIBridges to
           quickly apply for state funded assistance
         </p>
-        <a target="_blank" href="https://newmibridges.michigan.gov/s/isd-landing-page?language=en_US">
-        <img src={MIBridgesLogo} alt="Logo for MIBridges" />
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://newmibridges.michigan.gov/s/isd-landing-page?language=en_US"
+        >
+          <img src={MIBridgesLogo} alt="Logo for MIBridges" />
         </a>
-        <a target="_blank" href="https://newmibridges.michigan.gov/s/isd-landing-page?language=en_US">
-        <p className="subtitle-text">Access MIBridges Application &gt; </p>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://newmibridges.michigan.gov/s/isd-landing-page?language=en_US"
+        >
+          <p className="subtitle-text">Access MIBridges Application &gt; </p>
         </a>
         <p className="intro-paragraph">
           MIBridges offers an application for help through the{" "}
@@ -54,26 +61,27 @@ function Childcare() {
           <p>
             <ul>
               <li>Non-Profit</li>
+              <br />
               <li>No cost for qualifying families</li>
+              <br />
               <li>Early Head Start</li>
               <dd>Children aged 0-3 years old</dd>
               <dd>Home visit for babies &amp; pregnant women</dd>
+              <br />
               <li>Child must be 4 before Sept. 1st</li>
+              <br />
+              <li>Central Office Location:</li>
+              <dd>2626 Walker NW,</dd>
+              <dd>Walker, MI 49544</dd>
+              <br />
+              <li>Contact:</li>
+              <dd>(616) 453-4145</dd>
             </ul>
             <br />
-            <dl>
-            <dt>Central Office Location:</dt>
-
-            <dd>2626 Walker NW,</dd>
-            <dd>Walker, MI 49544</dd>
-            <br />
-            <dt>Contact:</dt>
-            <dd>(616) 453-4145</dd>
-          </dl>
           </p>
-          
+
           <p>Enrollment based on priority &amp; availability</p>
-          <a target="_blank" href="https://hs4kc.org/apply/">
+          <a target="_blank" rel="noreferrer" href="https://hs4kc.org/apply/">
             <p className="access-link">Access Headstart Webpage &gt; </p>
           </a>
         </div>
@@ -116,7 +124,11 @@ function Childcare() {
             </dl>
           </p>
           <p>Enrollment based on priority &amp; availability</p>
-          <a target="_blank" href="https://www.facebook.com/MommyRecharge/">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.facebook.com/MommyRecharge/"
+          >
             <p className="access-link">Access Mommy &amp; Me Webpage &gt; </p>
           </a>
         </div>

@@ -86,15 +86,7 @@ function Home() {
         </div>
       </div>
       <div className="containing-div">
-        <div className="two-column">
-          <h4 className="widget-titles">Know Your Rights</h4>
-          <p>
-            Find lawyers near you Immigration Process <br /> Help Learn your
-            legal rights
-          </p>
-          <p>View Resources &gt;</p>
-        </div>
-        <div className="two-column">
+      <div className="two-column">
         <Link to='/legal'>
           <img
             src={LegalHelp}
@@ -103,6 +95,14 @@ function Home() {
             className="widget-resize"
           />
           </Link>
+        </div>
+        <div className="two-column">
+          <h4 className="widget-titles">Know Your Rights</h4>
+          <p>
+            Find lawyers near you Immigration Process <br /> Help Learn your
+            legal rights
+          </p>
+          <p>View Resources &gt;</p>
         </div>
       </div>
       <div className="containing-div">
@@ -127,17 +127,7 @@ function Home() {
         </div>
       </div>
       <div className="containing-div">
-        <div className="two-column">
-          <h4 className="widget-titles">Find Job Options</h4>
-          <p>
-            Learn how to get employed
-            <br /> Explore work visas <br />
-            Job opportunites near me
-          </p>
-          <p>View Resources &gt;</p>
-        </div>
-
-        <div className="two-column">
+      <div className="two-column">
         <Link to="/jobs">
           <img
             src={Jobs}
@@ -146,6 +136,15 @@ function Home() {
             className="widget-resize"
           />
           </Link>
+        </div>
+        <div className="two-column">
+          <h4 className="widget-titles">Find Job Options</h4>
+          <p>
+            Learn how to get employed
+            <br /> Explore work visas <br />
+            Job opportunites near me
+          </p>
+          <p>View Resources &gt;</p>
         </div>
       </div>
       <div className="containing-div">
@@ -169,16 +168,7 @@ function Home() {
         </div>
       </div>
       <div className="containing-div">
-        <div className="two-column">
-          <h4 className="widget-titles">Education Options</h4>
-          <p>
-            Learn how to get education <br/> School for children <br/> Community College
-            Access
-          </p>
-          <p>View Resources &gt;</p>
-        </div>
-
-        <div className="two-column">
+      <div className="two-column">
         <Link to="/school">
           <img
             src={School}
@@ -187,6 +177,14 @@ function Home() {
             className="widget-resize"
           />
           </Link>
+        </div>
+        <div className="two-column">
+          <h4 className="widget-titles">Education Options</h4>
+          <p>
+            Learn how to get education <br/> School for children <br/> Community College
+            Access
+          </p>
+          <p>View Resources &gt;</p>
         </div>
       </div>
     </div>
