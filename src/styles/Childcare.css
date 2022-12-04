@@ -1,17 +1,39 @@
 .containing-div2 {
+    width: 90%;
   clear: both;
   margin-bottom: 20%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .two-column2 {
   width: 100%;
-  margin-bottom: 2.5%;
   margin-top: 2.5%;
 }
 
+.two-column-wrapper {
+    clear: both;
+}
+
 dl {
-  display: table;
   margin: 0 auto;
+}
+
+.outro-paragraph {
+    clear: both;
+    padding-top: 3%;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.outro-paragraph p {
+    text-align: left;
+}
+
+.widget-resize-childcare {
+  width: 70%;
+  height: auto;
 }
 
 dt {
@@ -20,13 +42,16 @@ dt {
 }
 
 .description-paragraphs {
-  text-align: center;
+  text-align: left;
   letter-spacing: 0.1em;
   padding-left: 3%;
   padding-right: 3%;
 }
 
 .div-line {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
   width: 75%;
   height: 0.25em;
 }
@@ -34,11 +59,13 @@ dt {
 .access-link {
   color: #436599 !important;
   font-weight: bolder;
+  text-align: center !important;
 }
 
 ul {
   display: table;
   margin: 0 auto;
+  font-size: .9em;
 }
 li {
   font-weight: bolder;

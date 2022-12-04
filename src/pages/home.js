@@ -3,12 +3,14 @@ import "../styles/Homepage.css";
 import Group from "../media/Group.jpg";
 import MedicalHelp from "../media/MedicalHelp.jpg";
 import DividingLine from "../media/DividingLine.jpg";
-import LegalHelp from "../media/LegalHelp.jpg"
-import Childcare from "../media/Childcare.jpg"
+import LegalHelp from "../media/LegalHelp.jpg";
+import Childcare from "../media/Childcare.jpg";
 import Jobs from "../media/Jobs.jpg";
 import Food from "../media/Food.jpg";
 import School from "../media/School.jpg";
 import { Link } from "react-router-dom";
+import Envelope from "../media/Envelope.jpg";
+import OutgoingCall from "../media/OutgoingCall.jpg"
 
 function Home() {
   return (
@@ -26,6 +28,16 @@ function Home() {
           Want to contact us for direct help? <br /> Reach out by email or
           phone!
         </p>
+        <div>
+          <img src={Envelope} alt="envelope icon for mailing"className="contact-two-column-img"/>
+   
+          <a id="Email" href='mailto:info@amawithoutborders.org'><p className="contact-two-column-paragraph">info@amawithoutborders.org</p></a>
+          </div>
+          <div className="clear">
+          <img src={OutgoingCall}  alt="phone icon for cell number" className="contact-two-column-img"/>
+   
+          <p className="contact-two-column-paragraph">616-550-9574</p>
+          </div>
       </div>
       <div className="three-column">
         <img
@@ -54,6 +66,7 @@ function Home() {
           clinics, and job opportunities.{" "}
         </p>
       </div>
+      
       <img
         src={DividingLine}
         className="div-line"
@@ -65,13 +78,13 @@ function Home() {
       </p>
       <div className="containing-div">
         <div className="two-column">
-        <Link to='/medical'>
-          <img
-            src={MedicalHelp}
-            title="Medical Help"
-            alt="view health resources"
-            className="widget-resize"
-          />
+          <Link to="/medical">
+            <img
+              src={MedicalHelp}
+              title="Medical Help"
+              alt="view health resources"
+              className="widget-resize"
+            />
           </Link>
         </div>
         <div className="two-column">
@@ -80,20 +93,20 @@ function Home() {
             Healthcare options near you <br /> Know your medical rights <br />{" "}
             Know what you qualify for
           </p>
-          <Link to='/medical'>
-          <p>View Resources &gt;</p>
+          <Link to="/medical">
+            <p>View Resources &gt;</p>
           </Link>
         </div>
       </div>
       <div className="containing-div">
-      <div className="two-column">
-        <Link to='/legal'>
-          <img
-            src={LegalHelp}
-            title="Medical Help"
-            alt="view health resources"
-            className="widget-resize"
-          />
+        <div className="two-column">
+          <Link to="/legal">
+            <img
+              src={LegalHelp}
+              title="Medical Help"
+              alt="view health resources"
+              className="widget-resize"
+            />
           </Link>
         </div>
         <div className="two-column">
@@ -108,12 +121,12 @@ function Home() {
       <div className="containing-div">
         <div className="two-column">
           <Link to="/childcare">
-          <img
-            src={Childcare}
-            title="Medical Help"
-            alt="view health resources"
-            className="widget-resize"
-          />
+            <img
+              src={Childcare}
+              title="Medical Help"
+              alt="view health resources"
+              className="widget-resize"
+            />
           </Link>
         </div>
         <div className="two-column">
@@ -127,14 +140,14 @@ function Home() {
         </div>
       </div>
       <div className="containing-div">
-      <div className="two-column">
-        <Link to="/jobs">
-          <img
-            src={Jobs}
-            title="Medical Help"
-            alt="view health resources"
-            className="widget-resize"
-          />
+        <div className="two-column">
+          <Link to="/jobs">
+            <img
+              src={Jobs}
+              title="Medical Help"
+              alt="view health resources"
+              className="widget-resize"
+            />
           </Link>
         </div>
         <div className="two-column">
@@ -149,13 +162,13 @@ function Home() {
       </div>
       <div className="containing-div">
         <div className="two-column">
-        <Link to="/food">
-          <img
-            src={Food}
-            title="Medical Help"
-            alt="view health resources"
-            className="widget-resize"
-          />
+          <Link to="/food">
+            <img
+              src={Food}
+              title="Medical Help"
+              alt="view health resources"
+              className="widget-resize"
+            />
           </Link>
         </div>
         <div className="two-column">
@@ -168,21 +181,21 @@ function Home() {
         </div>
       </div>
       <div className="containing-div">
-      <div className="two-column">
-        <Link to="/school">
-          <img
-            src={School}
-            title="Medical Help"
-            alt="view health resources"
-            className="widget-resize"
-          />
+        <div className="two-column">
+          <Link to="/school">
+            <img
+              src={School}
+              title="Medical Help"
+              alt="view health resources"
+              className="widget-resize"
+            />
           </Link>
         </div>
         <div className="two-column">
           <h4 className="widget-titles">Education Options</h4>
           <p>
-            Learn how to get education <br/> School for children <br/> Community College
-            Access
+            Learn how to get education <br /> School for children <br />{" "}
+            Community College Access
           </p>
           <p>View Resources &gt;</p>
         </div>

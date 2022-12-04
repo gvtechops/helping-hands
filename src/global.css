@@ -19,7 +19,6 @@ a {
   z-index: 1;
 }
 
-
 h3 {
   font-family: "Montserrat";
   clear: both;
@@ -27,7 +26,16 @@ h3 {
   font-size: 1.3em;
   font-weight: 700;
   letter-spacing: 0.05em;
+}
 
+.contact-intro {
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h4 {
+  text-align: center;
 }
 
 .title {
@@ -50,6 +58,67 @@ h3 {
   clear: both;
 }
 
+form,
+textarea {
+  border-radius: 10px;
+  border: none;
+  width: 100%;
+}
+form label {
+  color: #444444;
+  letter-spacing: 0.07em;
+  font-weight: lighter;
+}
+
+form,
+input {
+  border-radius: 10px;
+  border: none;
+  font-family: "Manrope";
+  width: 100%;
+}
+
+button {
+  padding: 7px;
+  background: white;
+  color: #232628;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  width: 110px;
+  margin-left: 30%;
+  margin-right: auto;
+  border-radius: 20px;
+  overflow: auto;
+}
+
+form {
+  width: 20em;
+  line-height: 2.5em;
+  color: #444444;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f2f2f2;
+  padding: 25px;
+  font-family: "Manrope";
+  font-size: 0.8em;
+  border-radius: 20px;
+  font-size: 1em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15), 0 6px 20px 0 rgba(0, 0, 0, 0.14);
+}
+form h4 {
+  margin: 0;
+}
+.error {
+  color: darkred;
+  font-size: 0.8em;
+  font-style: italic;
+  text-align: left;
+}
+
 @media only screen and (min-width: 768px) {
   .title {
     font-size: 2em;
@@ -57,11 +126,19 @@ h3 {
 }
 
 a:hover {
-color: gray;
-font-style: normal;
+  color: gray;
+  font-style: normal;
 }
 
 a:active {
   color: gray;
 }
 
+button:disabled,
+button:disabled:hover,
+button:disabled:active {
+  background-color: lightgray;
+  color: darkgrey;
+  border-color: lightgrey;
+  cursor: not-allowed;
+}

@@ -29,8 +29,9 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
         <FixedNav />
+        <Footer />
       </Router>
-      <Footer />
+      
     </>
   );
 }

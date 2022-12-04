@@ -26,7 +26,7 @@ nav div {
 }
 
 .navbar {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 70%;
@@ -36,7 +36,7 @@ nav div {
 
 @media only screen and (min-width: 680px) {
   .navbar {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 55%;
@@ -61,9 +61,7 @@ nav div {
   .navbar {
     margin-top: 1.5%;
   }
-  a:hover {
-    font-style: italic;
-  }
+  
 
   a:active {
     color: gainsboro;

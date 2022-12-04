@@ -1,22 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
 
 h1 {
   font-family: "Montserrat";
-  font-weight: 700;
-  font-size: 3.25em;
+  font-weight: 600;
+  font-size: 3.7vw;
   line-height: 1em;
   color: #ffffff;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.07em;
   text-align: center !important;
 }
 
 .header-description {
-  width: 70%;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
-  font-size: 1.75em;
+  font-size: 1.75vw;
+  font-style: italic;
   color: white !important;
   text-align: center;
   letter-spacing: 0.05em;
@@ -69,7 +71,7 @@ h2 {
 }
 
 .navbannerfixed {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -80,9 +82,9 @@ h2 {
   color: #994343 !important;
   font-family: "Montserrat";
   font-weight: 800;
-  font-size: 1.25em;
+  font-size: 3.75vw;
   letter-spacing: 0.05em;
-  position: fixed;
+  position: absolute;
   left: 0;
   top: 0;
   margin-top: 2%;
@@ -105,20 +107,13 @@ h2 {
   text-align: center;
   color: black;
 }
-@media only screen and (min-width: 600px) {
-  .helping-hands-title {
-    font-size: 1.5em;
-  }
-}
 
 @media only screen and (min-width: 768px) {
   .centered {
     font-size: 0.65em;
   }
 
-  .helping-hands-title {
-    font-size: 1.75em;
-  }
+
 
   .textshadow {
     position: absolute;
@@ -134,9 +129,7 @@ h2 {
   .centered {
     font-size: 0.8em;
   }
-  .helping-hands-title {
-    font-size: 2.75em;
-  }
+
   .textshadow {
     font-size: 0.8em;
   }

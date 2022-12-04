@@ -1,0 +1,8 @@
+.legal-rights p {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    letter-spacing: .05em;
+    font-size: 1.1em;
+}

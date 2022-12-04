@@ -1,0 +1,77 @@
+.know-your-rights {
+  font-size: 1.7em;
+  color: #444444;
+  font-weight: 700;
+  text-shadow: none !important;
+}
+
+.question {
+  font-size: 1.3em;
+  font-weight: 700;
+  text-shadow: none !important;
+ 
+}
+li {
+    color: #436599 !important;;
+    padding-top: 1em;
+    font-size: 1.1em;
+}
+
+.answer {
+    font-style: italic;
+    text-align: left;
+    font-size: .9em;
+    padding-left: 7%;
+}
+.know-rights {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rights-divider {
+  background-color: light#994343;
+  width: 65%;
+  border-radius: 25px;
+  padding-left: 2%;
+  padding: 2%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.medical-2-column {
+    width: 100%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+
+.medical-2-column-container {
+width: 90%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.yes {
+  color: green;
+}
+.no {
+  color: red;
+}
+.rights-divider p {
+  color: white !important;
+  font-size: 1.2em;
+  font-family: "Manrope";
+}
+
+@media only screen and (min-width: 680px) {
+    .know-rights {
+        width: 55%;
+    }
+    .medical-2-column {
+        float: left;
+        width: 45%;
+        margin-top: 2.5em;
+        padding-left: 2.5%;
+        padding-right: 2.5%;
+    }
+}
