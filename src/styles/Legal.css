@@ -1,8 +1,34 @@
 .legal-rights p {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: left;
-    letter-spacing: .05em;
-    font-size: 1.1em;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  letter-spacing: 0.05em;
+  font-size: 1.1em;
+}
+
+.legal-two-column-wrapper {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.legal-two-column {
+  width: 100%;
+  margin-top: 2.5%;
+}
+
+@media only screen and (min-width: 680px) {
+  .legal-two-column {
+    float: left;
+    width: 50%;
+  }
+
+  .legal-two-column p {
+    font-family: "Manrope";
+  }
+
+  .legal-two-column h3 {
+    font-size: 1.75em;
+  }
 }

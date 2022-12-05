@@ -1,8 +1,7 @@
-import React, { useEffect } from "react";
+import React from "react";
 //import headerImage from "../media/bannerphoto.jpg";
 import "../styles/Header.css";
 import { Link } from "react-router-dom";
-import Header2 from "../media/Header2.png";
 import UpdatedHeader from "../media/UpdatedHeader.png";
 
 function Header() {

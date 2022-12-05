@@ -82,18 +82,21 @@ h2 {
   color: #994343 !important;
   font-family: "Montserrat";
   font-weight: 800;
-  font-size: 3.75vw;
+  font-size: 4.5vw;
   letter-spacing: 0.05em;
   position: absolute;
+  line-height: 1em;
   left: 0;
   top: 0;
+  text-align: left;
   margin-top: 2%;
-  margin-left: 2%;
+  margin-left: 1.5%;
 }
 
 .navimage {
   width: 100%;
   height: auto;
+  opacity: 0.9;
 }
 
 /* Container holding the image and the text */
