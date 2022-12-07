@@ -16,7 +16,7 @@ import FixedNav from "./components/FixedNav";
 function App() {
   return (
     <>
-      <BrowserRouter basename={window.location.pathname || ''}>
+      <BrowserRouter basename={"/helping-hands-webpage"}>
         <Header />
         <Routes>
           <Route path="/childcare" element={<Childcare />} />
