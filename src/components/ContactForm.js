@@ -1,5 +1,8 @@
 
 import useInput from "../hooks/use-input";
+import { useState, useRef } from "react";
+import emailjs from "@emailjs/browser";
+
 
 function ContactForm() {
   //desctructuring the keys from the useInput return object
@@ -47,28 +50,28 @@ function ContactForm() {
     formIsValid = true;
   }
 
-  function formSubmitHandler(event) {
-    event.preventDefault();
-    if (!formIsValid) {
-      return;
-    }
-    resetEmailInput();
-    resetNameInput();
-    resetNumberInput();
-    resetMessageInput();
-  }
+  const [formSubmitted, setFormSubmitted] = useState(false)
 
-//   function EmailValidator(email) {
-//     if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)) {
-//       console.log("email correct:", email);
-//       return true;
-//     } else {
-//       console.log("email error:", email);
-//       return false;
-//     }
-//   }
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_fl7suo6', 'template_23l2608', form.current, 'wYHSM4mbdAsi5WqgQ')
+      .then((result) => {
+        resetEmailInput();
+        resetNameInput();
+        resetNumberInput();
+        resetMessageInput();
+        setFormSubmitted(true)
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
   return (
-    <form action="mailto:silver1mist1@yahoo.com" method="get" enctype="text/plain">
+    <form ref={form} onSubmit={sendEmail}>
       <div>
         <h4>Let&apos;s Get in Touch!</h4>
         <label for="name">Name:</label>
@@ -101,8 +104,8 @@ function ContactForm() {
         <br />
         <input
           type="tel"
-          id="phone"
-          name="phone"
+          id="number"
+          name="number"
           value={number}
           onBlur={numberBlurHandler}
           onChange={numberChangeHandler}
@@ -114,7 +117,7 @@ function ContactForm() {
         <label>Message:</label>
         <br />
         <textarea
-          name="comments"
+          name="message"
           id="message"
           cols="30"
           rows="10"
@@ -126,18 +129,11 @@ function ContactForm() {
         {messageInputHasError && (
           <label className="error">Message must not be empty</label>
         )}
-        <div>
-          <button
-            disabled={!formIsValid}
-            type="submit"
-            id="submit"
-            name="submit"
-            value="submit"
-            onClick={formSubmitHandler}
-          >
-            Submit
-          </button>
-        </div>
+       <input type="submit" value="Send" disabled={!formIsValid}/>
+      <br/>
+      <div className="centered-text">
+      {formSubmitted && <label className="success">Form submitted, Thank you!</label>}
+      </div>
       </div>
     </form>
   );

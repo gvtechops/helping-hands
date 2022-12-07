@@ -77,6 +77,32 @@ input {
   font-family: "Manrope";
   width: 100%;
 }
+.success {
+  color: green;
+  font-size: 1em;
+  font-weight: bold;
+  letter-spacing: .03em;
+}
+
+input[type=submit] {
+  padding-top: .75em;
+  padding-bottom: .75em;
+  width: 30%;
+  margin-left: 35%;
+  margin-right: auto;
+  font-size: 0.8em;
+  letter-spacing: .04em;
+  background-color: white;
+  color:#444444;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.04), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+}
+
+.centered-text {
+  text-align: center !important;
+}
+
+
+
 
 button {
   padding: 7px;

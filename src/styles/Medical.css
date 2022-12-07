@@ -12,15 +12,15 @@
  
 }
 li {
-    color: #436599 !important;;
+    color: #994343 !important;;
     padding-top: 1em;
-    font-size: 1.1em;
+    font-size: .9em;
 }
 
 .answer {
     font-style: italic;
     text-align: left;
-    font-size: .9em;
+    font-size: .75em;
     padding-left: 7%;
 }
 .know-rights {

@@ -356,7 +356,7 @@ function Legal() {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://www.immigrantconnectiongr.org/"
+            href="https://www.justia.com/lawyers/immigration-law/michigan/grand-rapids"
           >
             <p className="access-link">Visit Website &gt; </p>
           </a>

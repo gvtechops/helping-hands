@@ -1,4 +1,5 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
 import "./global.css";
 import Footer from "./components/Footer";
@@ -15,7 +16,7 @@ import FixedNav from "./components/FixedNav";
 function App() {
   return (
     <>
-      <Router>
+      <BrowserRouter basename={window.location.pathname || ''}>
         <Header />
         <Routes>
           <Route path="/childcare" element={<Childcare />} />
@@ -30,7 +31,7 @@ function App() {
         </Routes>
         <FixedNav />
         <Footer />
-      </Router>
+      </BrowserRouter>
       
     </>
   );

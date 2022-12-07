@@ -73,6 +73,10 @@ li {
   text-align: left;
 }
 
+ul li {
+    color: #444444 !important;
+}
+
 dd {
   text-align: left;
 }
