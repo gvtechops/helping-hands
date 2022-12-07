@@ -10,7 +10,7 @@ function Header() {
   return (
     <div>
       <div className="container">
-        <Link to="/home">
+        <Link to="/">
           <img
             src={UpdatedHeader}
             title="Helping Hands Webpage Header Banner"
@@ -29,15 +29,7 @@ function Header() {
           </p>
         </div>
       </div>
-      {/* <div className="navbannerfixed">
-        <img src={NavBannerFixedPos} className="navimage" />
-        <Link to="/home">
-          <p className="helping-hands-title">
-            Helping <br /> Hands.
-          </p>
-        </Link>
-        <Navbar />
-      </div> */}
+    
     </div>
   );
 }

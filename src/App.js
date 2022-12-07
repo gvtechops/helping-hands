@@ -1,4 +1,3 @@
-import { BrowserRouter } from "react-router-dom";
 import { Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
 import "./global.css";
@@ -16,23 +15,21 @@ import FixedNav from "./components/FixedNav";
 function App() {
   return (
     <>
-      <BrowserRouter basename={"/helping-hands-webpage"}>
-        <Header />
-        <Routes>
-          <Route path="/childcare" element={<Childcare />} />
-          <Route path="/food" element={<Food />} />
-          <Route path="/home" element={<Home />} />
-          <Route index element={<Home />} />
-          <Route path="/jobs" element={<Jobs />} />
-          <Route path="/legal" element={<Legal />} />
-          <Route path="/school" element={<School />} />
-          <Route path="/medical" element={<Medical />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-        <FixedNav />
-        <Footer />
-      </BrowserRouter>
-      
+      <Header />
+      <FixedNav />
+      <Routes>
+        <Route path="/childcare" element={<Childcare />} />
+        <Route path="/food" element={<Food />} />
+        <Route path="/" element={<Home />} />
+        <Route index element={<Home />} />
+        <Route path="/jobs" element={<Jobs />} />
+        <Route path="/legal" element={<Legal />} />
+        <Route path="/school" element={<School />} />
+        <Route path="/medical" element={<Medical />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+
+      <Footer />
     </>
   );
 }

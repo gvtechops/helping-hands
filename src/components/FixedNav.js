@@ -11,7 +11,7 @@ function FixedNav() {
     <div>
       <div className="navbannerfixed">
         <img src={SkinnierNav} className="navimage" alt="navigation banner background shape" />
-        <Link to="/home">
+        <Link to="/">
           <p className="helping-hands-title">
             Helping <br /> Hands.
           </p>

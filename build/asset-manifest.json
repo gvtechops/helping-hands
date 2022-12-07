@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/helping-hands-webpage/static/css/main.2e50fe73.css",
-    "main.js": "/helping-hands-webpage/static/js/main.e9dc7d13.js",
+    "main.js": "/helping-hands-webpage/static/js/main.212dd794.js",
     "static/media/Judge.jpg": "/helping-hands-webpage/static/media/Judge.fbeb09fb4c5f11078445.jpg",
     "static/media/FourthAmend.jpg": "/helping-hands-webpage/static/media/FourthAmend.3eb38afc1a55411febc9.jpg",
     "static/media/Court.jpg": "/helping-hands-webpage/static/media/Court.8353897a4e7807771c68.jpg",
@@ -48,10 +48,10 @@
     "static/media/MIRC.png": "/helping-hands-webpage/static/media/MIRC.0f0fd893daff71b900ad.png",
     "index.html": "/helping-hands-webpage/index.html",
     "main.2e50fe73.css.map": "/helping-hands-webpage/static/css/main.2e50fe73.css.map",
-    "main.e9dc7d13.js.map": "/helping-hands-webpage/static/js/main.e9dc7d13.js.map"
+    "main.212dd794.js.map": "/helping-hands-webpage/static/js/main.212dd794.js.map"
   },
   "entrypoints": [
     "static/css/main.2e50fe73.css",
-    "static/js/main.e9dc7d13.js"
+    "static/js/main.212dd794.js"
   ]
 }
