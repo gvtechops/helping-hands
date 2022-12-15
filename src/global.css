@@ -159,7 +159,10 @@ a:hover {
 a:active {
   color: gray;
 }
-
+input:disabled {
+  background-color: lightgray;
+  color: darkgrey;
+}
 button:disabled,
 button:disabled:hover,
 button:disabled:active {

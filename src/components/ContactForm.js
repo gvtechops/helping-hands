@@ -42,8 +42,14 @@ function ContactForm() {
     reset: resetEmailInput,
   } = useInput(
     (value) =>
-      value.trim() !== "" && value.length < 50
+      value.trim() !== "" && value.length < 50 && validateEmailRegex(value)
   );
+
+  function validateEmailRegex(email) {
+    const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(String(email).toLowerCase());
+  }
+  
 
   let formIsValid = false;
   if (nameIsValid && numberIsValid && messageIsValid && emailIsValid) {

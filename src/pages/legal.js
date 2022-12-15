@@ -13,8 +13,9 @@ import USA from "../media/USA.jpg";
 import States from "../media/States.jpg";
 import MIRC from "../media/MIRC.png";
 import CityLife from "../media/CityLife.png";
-import LegalNeeds from "../media/LegalNeeds.jpg"
-import LegalQuest from "../media/pexels-pixabay-48195.jpg"
+import LegalNeeds from "../media/LegalNeeds.jpg";
+import LegalQuest from "../media/pexels-pixabay-48195.jpg";
+import Disclaimer from "../media/Disclaimer.png";
 
 function Legal() {
   return (
@@ -24,7 +25,28 @@ function Legal() {
         Every immigrant and US citizen is protected under the consitutional
         rights of the United States of America
       </div>
-
+      <div className="disclaimer">
+        <div className="point-container">
+          <img
+            src={Disclaimer}
+            className="exclamation-point-icon"
+            alt="Disclaimer icon exclamation point"
+          />
+        </div>
+        <div className="disclaimer-container">
+        <b>Disclaimer:</b> Information on this website is for
+        general informational purposes only. It is not intended as legal advice
+        and should not be taken as such. If you have specific legal questions,
+        you should consult with a licensed attorney.
+        </div>
+      </div>
+      <div>
+        <p>
+          The inclusion of links to other websites on this site does not imply
+          endorsement or approval of the content of those websites. We are not
+          responsible for the content or accuracy of any external websites.
+        </p>
+      </div>
       <h2 className="know-your-rights">Learn your Consitutional Rights</h2>
 
       <div className="legal-two-column">
@@ -206,8 +228,8 @@ function Legal() {
           <p>
             "Excessive bail shall not be required, nor excessive fines imposed,
             nor cruel and unusual punishments inflicted."
-            <br/>
-            <br/>
+            <br />
+            <br />
           </p>
         </div>
       </div>
@@ -328,8 +350,9 @@ function Legal() {
           />
           <h3>Legal Quest Network PC</h3>
           <p className="description-paragraphs">
-            <b>Law Office of Rathi and Associates</b> offers
-            "Affordable Expert Immigration Advice from Trusted Attorneys." Top rated and located in Grand Rapids.
+            <b>Law Office of Rathi and Associates</b> offers "Affordable Expert
+            Immigration Advice from Trusted Attorneys." Top rated and located in
+            Grand Rapids.
           </p>
           <a
             target="_blank"
@@ -348,10 +371,9 @@ function Legal() {
           />
           <h3>Justia</h3>
           <p className="description-paragraphs">
-            
-            <b>Justia is a website for finding immigration lawyers</b> in your area
-            including address, contact information, years of experience, and
-            customer ratings.
+            <b>Justia is a website for finding immigration lawyers</b> in your
+            area including address, contact information, years of experience,
+            and customer ratings.
           </p>
           <a
             target="_blank"
