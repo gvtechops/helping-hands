@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/helping-hands-webpage/static/css/main.2e50fe73.css",
-    "main.js": "/helping-hands-webpage/static/js/main.7bb7fd84.js",
+    "main.css": "/helping-hands-webpage/static/css/main.9898a64d.css",
+    "main.js": "/helping-hands-webpage/static/js/main.a9588f2a.js",
     "static/media/Judge.jpg": "/helping-hands-webpage/static/media/Judge.fbeb09fb4c5f11078445.jpg",
     "static/media/FourthAmend.jpg": "/helping-hands-webpage/static/media/FourthAmend.3eb38afc1a55411febc9.jpg",
     "static/media/Court.jpg": "/helping-hands-webpage/static/media/Court.8353897a4e7807771c68.jpg",
@@ -47,11 +47,11 @@
     "static/media/TrinityHealth.png": "/helping-hands-webpage/static/media/TrinityHealth.5c5355f0be7da818ea2a.png",
     "static/media/MIRC.png": "/helping-hands-webpage/static/media/MIRC.0f0fd893daff71b900ad.png",
     "index.html": "/helping-hands-webpage/index.html",
-    "main.2e50fe73.css.map": "/helping-hands-webpage/static/css/main.2e50fe73.css.map",
-    "main.7bb7fd84.js.map": "/helping-hands-webpage/static/js/main.7bb7fd84.js.map"
+    "main.9898a64d.css.map": "/helping-hands-webpage/static/css/main.9898a64d.css.map",
+    "main.a9588f2a.js.map": "/helping-hands-webpage/static/js/main.a9588f2a.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e50fe73.css",
-    "static/js/main.7bb7fd84.js"
+    "static/css/main.9898a64d.css",
+    "static/js/main.a9588f2a.js"
   ]
 }
