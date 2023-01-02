@@ -1,19 +1,9 @@
 {
   "files": {
-    "main.css": "/helping-hands-webpage/static/css/main.9898a64d.css",
-    "main.js": "/helping-hands-webpage/static/js/main.a9588f2a.js",
-    "static/media/Judge.jpg": "/helping-hands-webpage/static/media/Judge.fbeb09fb4c5f11078445.jpg",
-    "static/media/FourthAmend.jpg": "/helping-hands-webpage/static/media/FourthAmend.3eb38afc1a55411febc9.jpg",
-    "static/media/Court.jpg": "/helping-hands-webpage/static/media/Court.8353897a4e7807771c68.jpg",
-    "static/media/Gun.jpg": "/helping-hands-webpage/static/media/Gun.cce262136c74592f80c7.jpg",
-    "static/media/Jail.jpg": "/helping-hands-webpage/static/media/Jail.7d23c127b4edbd17d58b.jpg",
-    "static/media/States.jpg": "/helping-hands-webpage/static/media/States.86d89e0ff9b74ab6510d.jpg",
-    "static/media/Lawyer.jpg": "/helping-hands-webpage/static/media/Lawyer.a4a778c76581b74a7718.jpg",
-    "static/media/Petition.jpg": "/helping-hands-webpage/static/media/Petition.1492ea69249e102bae55.jpg",
-    "static/media/USA.jpg": "/helping-hands-webpage/static/media/USA.80ce71323bf8528ddbdd.jpg",
+    "main.css": "/helping-hands-webpage/static/css/main.8746c323.css",
+    "main.js": "/helping-hands-webpage/static/js/main.112cae56.js",
     "static/media/LegalNeeds.jpg": "/helping-hands-webpage/static/media/LegalNeeds.a9d9bc09ec639b5ccbe9.jpg",
     "static/media/UpdatedHeader.png": "/helping-hands-webpage/static/media/UpdatedHeader.4ea640842e6bebb9764d.png",
-    "static/media/Military.jpg": "/helping-hands-webpage/static/media/Military.9407a7148b481769e5c3.jpg",
     "static/media/pexels-pixabay-48195.jpg": "/helping-hands-webpage/static/media/pexels-pixabay-48195.10d95a85870ec9d13ea0.jpg",
     "static/media/instagram.png": "/helping-hands-webpage/static/media/instagram.a2d671651bdb6b761fd3.png",
     "static/media/ResourceStaffing.png": "/helping-hands-webpage/static/media/ResourceStaffing.7ab38d5848f4d5ace10d.png",
@@ -47,11 +37,11 @@
     "static/media/TrinityHealth.png": "/helping-hands-webpage/static/media/TrinityHealth.5c5355f0be7da818ea2a.png",
     "static/media/MIRC.png": "/helping-hands-webpage/static/media/MIRC.0f0fd893daff71b900ad.png",
     "index.html": "/helping-hands-webpage/index.html",
-    "main.9898a64d.css.map": "/helping-hands-webpage/static/css/main.9898a64d.css.map",
-    "main.a9588f2a.js.map": "/helping-hands-webpage/static/js/main.a9588f2a.js.map"
+    "main.8746c323.css.map": "/helping-hands-webpage/static/css/main.8746c323.css.map",
+    "main.112cae56.js.map": "/helping-hands-webpage/static/js/main.112cae56.js.map"
   },
   "entrypoints": [
-    "static/css/main.9898a64d.css",
-    "static/js/main.a9588f2a.js"
+    "static/css/main.8746c323.css",
+    "static/js/main.112cae56.js"
   ]
 }
