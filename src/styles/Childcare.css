@@ -108,7 +108,7 @@ dd {
   text-shadow: none;
 }
 .intro-paragraph {
-  width: 80%;
+  width: 95%;
   margin-left: auto;
   margin-right: auto;
   font-family: "Manrope";
@@ -136,6 +136,10 @@ dd {
     width: 45%;
     padding-left: 2.5%;
     padding-right: 2.5%;
+  }
+
+  .intro-paragraph {
+    width: 80%;
   }
 
   /* Clear floats after the columns */

@@ -9,13 +9,8 @@ function Footer() {
   return (
     <div className="footer-background-color">
       <footer className="footer">
-        <p>
-          <div>
-            <Link to="/contact">Contact Us</Link>
-          </div>
-          <br/>
-          &copy; Copyright 2022. All Rights Reserved. <br />
-          <a className="iconresize" href="mailto:info@amawithoutborders.org">
+        <p className="footer">
+        <a className="iconresize" href="mailto:info@amawithoutborders.org">
             <img src={gmailImage} alt="gmail link" />
           </a>
           <a
@@ -34,6 +29,20 @@ function Footer() {
           >
             <img src={linkedinImage} alt="LinkedIn logo with link" />
           </a>
+          <div>
+            <Link to="/contact" className="footer">Contact Us</Link>
+          </div>
+          <div className="footer-disclaimer">
+          <p className="footer">
+          The inclusion of links to other websites on this site does not imply
+          endorsement or approval of the content of those websites. We are not
+          responsible for the content or accuracy of any external websites.
+        </p>
+          </div>
+          <br/>
+          &copy; Copyright 2022 <br />
+          
+        <br/>  
         </p>
       </footer>
     </div>

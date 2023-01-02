@@ -8,6 +8,12 @@ body {
   border: 0px;
 }
 
+.contact-desc {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 p {
   font-family: "Manrope";
   color: #444444 !important;
@@ -40,15 +46,16 @@ h4 {
 
 .title {
   font-weight: 800;
+  font-family: 'Manrope';
   clear: both;
   font-size: 1.3em;
   line-height: 0.5em;
   text-align: center;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.07em;
   color: #444444;
   box-shadow: none !important;
   padding: 2%;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+ 
 }
 
 /* Clear floats after the columns */
@@ -70,8 +77,15 @@ form label {
   font-weight: lighter;
 }
 
-form,
+/* form,
 input {
+  border-radius: 10px;
+  border: none;
+  font-family: "Manrope";
+  width: 100%;
+} */
+
+.contact {
   border-radius: 10px;
   border: none;
   font-family: "Manrope";
@@ -82,6 +96,7 @@ input {
   font-size: 1em;
   font-weight: bold;
   letter-spacing: .03em;
+  font-family: "Manrope";
 }
 
 input[type=submit] {
@@ -135,6 +150,7 @@ form {
   font-size: 1em;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15), 0 6px 20px 0 rgba(0, 0, 0, 0.14);
 }
+
 form h4 {
   margin: 0;
 }

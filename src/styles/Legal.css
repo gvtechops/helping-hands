@@ -6,42 +6,114 @@
   letter-spacing: 0.05em;
   font-size: 1.1em;
 }
+
+.civicsquiz,
+button {
+  margin-left: auto;
+}
+
+input {
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.civicsquizquestions {
+  margin-left: auto;
+  margin-right: auto;
+  width: 24em;
+  height: 24em;
+  color: #444444;
+  background-color: #fafafa;
+  padding: 25px;
+  font-family: "Manrope";
+  font-size: 0.8em;
+  border-radius: 20px;
+  font-size: 1em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15), 0 6px 20px 0 rgba(0, 0, 0, 0.14);
+  margin-bottom: 5%;
+  margin-top: 2.5%;
+}
+
+.button-legal-quiz {
+  margin-top: 5%;
+}
+
+.clearBoth {
+  clear: both;
+  padding-top: 2.5%;
+}
+
+span {
+  font-size: 1em;
+  width: 500px;
+  margin-right: 10%;
+  text-align: left;
+}
+
+input[type="radio"] {
+  margin: 1px 0px 0px 0px !important;
+}
+
+label {
+  margin-bottom: 5%;
+}
+
+.wrong {
+  margin-top: 20%;
+  color: darkred;
+  font-weight: bold;
+  font-family: "Manrope";
+  letter-spacing: 0.05em;
+  font-size: 2em;
+}
+
+.right {
+  padding-top: 20%;
+  color: darkgreen;
+  font-weight: bold;
+  font-family: "Manrope";
+  letter-spacing: 0.05em;
+  font-size: 2em;
+}
+
 .disclaimer {
-  width: 97%;
+  width: 100%;
   height: 20vw;
-  background: #f2f2f2;
-  box-shadow: 0px 4px 4px rgba(88, 88, 88, 0.25);
+  /* background: #f2f2f2; */
+  /* box-shadow: 0px 4px 4px rgba(88, 88, 88, 0.25); */
   border-radius: 20px;
   margin-left: auto;
   margin-right: auto;
-  font-size: 2.5vw;
+  font-size: .7 !important;
   text-align: justify;
   font-family: "Manrope";
   font-style: italic;
   color: rgb(100, 100, 100);
-  letter-spacing: .03em;
+  letter-spacing: 0.03em;
   padding-top: 1.5%;
   padding-left: 2%;
   padding-right: 2%;
   margin-top: 2%;
+  padding-bottom: 2%;
 }
 .exclamation-point-icon {
   width: 5vw;
   height: 5vw;
 }
 .point-container {
-    margin-top: 10%;
-    width: 5%;
-    text-align: left;
-    float: left;
+  margin-top: 10%;
+  width: 5%;
+  text-align: left;
+  float: left;
 }
 .disclaimer-container {
-    width: 90%;
-    padding-left: 2%;
-    margin-left: 1%;
-    padding-top: 2.6%;
-    text-align: left;
-    float: left;
+  width: 90%;
+  padding-left: 2%;
+  margin-left: 1%;
+  padding-top: 2.6%;
+  text-align: left;
+  float: left;
 }
 .legal-two-column-wrapper {
   width: 100%;
@@ -74,7 +146,7 @@
   .disclaimer {
     width: 90%;
     height: 7.5em;
-    font-size: .9em;
+    font-size: 0.9em;
     padding-top: 1.5%;
     padding-left: 2%;
     padding-right: 2%;
@@ -84,26 +156,26 @@
     width: 90%;
     padding-left: 2%;
     margin-left: 1%;
-}
-.point-container {
+  }
+  .point-container {
     margin-top: 5%;
     width: 5%;
-}
+  }
 }
 
 @media only screen and (min-width: 700px) {
-    .disclaimer {
-        width: 70%;
-        height: 7vw;
-      }
-      .disclaimer-container {
-        width: 90%;
-        padding-top: 1.2%;
-        padding-left: 2%;
-        margin-left: 1%;
-    }
-    .point-container {
-        margin-top: 2.2%;
-        width: 5%;
-    }
+  .disclaimer {
+    width: 70%;
+    height: 7vw;
+  }
+  .disclaimer-container {
+    width: 90%;
+    padding-top: 1.2%;
+    padding-left: 2%;
+    margin-left: 1%;
+  }
+  .point-container {
+    margin-top: 2.2%;
+    width: 5%;
+  }
 }

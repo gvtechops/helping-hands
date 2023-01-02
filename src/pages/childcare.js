@@ -8,10 +8,23 @@ import KentwoodChurch from "../media/KentwoodChurch.jpg";
 import GreatStartReadiness from "../media/GreatStartReadiness.jpg";
 import GreatStartLogo from "../media/GreatStartLogo.jpg";
 import EligibilityCalculator from "../media/EligibilityCalculator.jpg";
+import { Helmet } from "react-helmet";
 
 function Childcare() {
   return (
     <div className="main-div">
+      <title>Helping Hands</title>
+      <Helmet>
+        <title>Helping Hands</title>
+        <meta
+          name="description"
+          content="Find local childcare help and resources to help immigrants in the Grand Rapids community"
+        />
+        <meta
+          name="keywords"
+          content="childcare, Grand Rapids, help, babysitting, education, head start"
+        />
+      </Helmet>
       <h1 className="title">Childcare</h1>
       <div className="containing-divider">
         <p className="intro-paragraph">
@@ -60,28 +73,29 @@ function Childcare() {
           />
           <p className="subtitle-text">Kent County Headstart </p>
           <p className="description-paragraphs">
-            HS4KC offers a variety of programs including in-home visits for
-            pregnant mothers, with interpreters, half-day classes for babies and
-            toddlers, and full-day preschool classrooms for 3-5 year olds
+            HS4KC is a <b>nonprofit</b> offering a variety of programs including
+            in-home visits for pregnant mothers, with interpreters, half-day
+            classes for babies and toddlers, and full-day preschool classrooms
+            for 3-5 year olds
           </p>
           <p>
-            <ul>
-              <li>Non-Profit</li>
-
-              <li>No cost for qualifying families</li>
-              <li>Early Head Start</li>
+            <b>
+              No cost for qualifying families, child must be 4 before Sept. 1st
+            </b>
+          </p>
+          <p>
+            <dl>
+              <dt>Early Head Start</dt>
               <dd>Children aged 0-3 years old</dd>
               <dd>Home visit for babies &amp; pregnant women</dd>
-
-              <li>Child must be 4 before Sept. 1st</li>
-
-              <li>Central Office Location:</li>
+              <br />
+              <dt>Central Office Location:</dt>
               <dd>2626 Walker NW,</dd>
               <dd>Walker, MI 49544</dd>
-
-              <li>Contact:</li>
+              <br />
+              <dt>Contact:</dt>
               <dd>(616) 453-4145</dd>
-            </ul>
+            </dl>
           </p>
 
           <p>Enrollment based on priority &amp; availability</p>

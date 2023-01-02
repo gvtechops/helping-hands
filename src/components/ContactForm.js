@@ -46,6 +46,7 @@ function ContactForm() {
   );
 
   function validateEmailRegex(email) {
+    //eslint-disable-next-line
     const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     return re.test(String(email).toLowerCase());
   }
@@ -89,6 +90,7 @@ function ContactForm() {
           value={name}
           onBlur={nameBlurHandler}
           onChange={nameChangeHandler}
+          className="contact"
         />
         {nameInputHasError && (
           <label className="error">Name must not be empty</label>
@@ -103,6 +105,7 @@ function ContactForm() {
           value={email}
           onBlur={emailBlurHandler}
           onChange={emailChangeHandler}
+          className="contact"
         />
         {emailInputHasError && <label className="error">Email not valid</label>}
         <br />
@@ -115,6 +118,7 @@ function ContactForm() {
           value={number}
           onBlur={numberBlurHandler}
           onChange={numberChangeHandler}
+          className="contact"
         />
         {numberInputHasError && (
           <label className="error">Number must not be empty</label>
@@ -135,7 +139,7 @@ function ContactForm() {
         {messageInputHasError && (
           <label className="error">Message must not be empty</label>
         )}
-       <input type="submit" value="Send" disabled={!formIsValid}/>
+       <input type="submit" value="Send" disabled={!formIsValid} className="contact"/>
       <br/>
       <div className="centered-text">
       {formSubmitted && <label className="success">Form submitted, Thank you!</label>}

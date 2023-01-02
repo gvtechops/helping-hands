@@ -22,10 +22,10 @@ function Header() {
         <h1 className="textshadowcolor">Immigration Resource Center</h1>
       </div> */}
         <div className="centered">
-        <h1>Immigration Resource Center</h1>
+        <h1 className="immigration-title">Immigration Resource Center</h1>
           <p className="header-description">
             Find medical, legal, career, food, childcare resources and more in
-            the Grand Rapids area
+            the Grand Rapids, Michigan area
           </p>
         </div>
       </div>

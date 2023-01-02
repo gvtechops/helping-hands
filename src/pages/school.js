@@ -167,9 +167,7 @@ function School() {
           <p className="access-link">Visit Website &gt; </p>
         </a>
       </div>
-      <h3>What if my child is under </h3>
-      <p><b>Michigan Requirements for Early Education Enrollment</b></p>
-    
+      
     </div>
   );
 }

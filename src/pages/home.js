@@ -63,8 +63,8 @@ function Home() {
         <h2 className="about-us">What We Offer</h2>
         <p className="p-text">
           Local links to food banks, childcare providers, schools, lawyers,
-          clinics, and job opportunities.{" "}
-        </p>
+          clinics, and job opportunities. <br/><i>The inclusion of links to other websites on this site does not imply endorsement or approval of the content of those websites.
+        </i></p>
       </div>
       
       <img
@@ -115,7 +115,9 @@ function Home() {
             Find lawyers near you Immigration Process <br /> Help Learn your
             legal rights
           </p>
+          <Link to="/legal">
           <p>View Resources &gt;</p>
+          </Link>
         </div>
       </div>
       <div className="containing-div">
@@ -136,7 +138,9 @@ function Home() {
             Become care provider <br />
             Apply for help
           </p>
+          <Link to="/childcare">
           <p>View Resources &gt;</p>
+          </Link>
         </div>
       </div>
       <div className="containing-div">
@@ -157,7 +161,9 @@ function Home() {
             <br /> Explore work visas <br />
             Job opportunites near me
           </p>
+          <Link to="/jobs">
           <p>View Resources &gt;</p>
+          </Link>
         </div>
       </div>
       <div className="containing-div">
@@ -177,7 +183,9 @@ function Home() {
             Find food banks near me <br />
             Learn about the Food Assistance Program
           </p>
+          <Link to="/food">
           <p>View Resources &gt;</p>
+          </Link>
         </div>
       </div>
       <div className="containing-div">
@@ -197,7 +205,9 @@ function Home() {
             Learn how to get education <br /> School for children <br />{" "}
             Community College Access
           </p>
+          <Link to="/school">
           <p>View Resources &gt;</p>
+          </Link>
         </div>
       </div>
     </div>

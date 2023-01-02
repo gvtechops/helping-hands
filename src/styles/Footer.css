@@ -1,30 +1,44 @@
 .footer {
-  font-size: 0.9em;
   font-family: "Manrope";
   clear: both;
+  color: white !important;
+  font-size: 1em;
+
 }
 
 .footer p {
     margin-bottom: 0;
+    
+}
+
+.footer-disclaimer {
+    width: 50%;
+    font-style: italic;
+    font-size: .8em;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .footer-background-color {
   margin-top: 30px; /* space between content and footer */
   padding-top: 20px;
   clear: both;
-  background: #f2f2f2;
+  /* background: #f2f2f2; */
+  background: #994343 !important;
+
 }
 
 .iconresize img {
-  width: 30px !important;
-  height: 30px !important;
+  width: 35px !important;
+  height: 35px !important;
   padding: 1em !important;
   box-shadow: none;
 }
 
 p {
   text-align: center;
-
+  
 }
 
 a:hover {

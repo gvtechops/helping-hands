@@ -11,11 +11,18 @@ import Medical from "./pages/medical";
 import Food from "./pages/food";
 import Contact from "./pages/contact";
 import FixedNav from "./components/FixedNav";
+import { Helmet } from "react-helmet";
+
 
 function App() {
   return (
     <>
       <Header />
+      <Helmet>
+        <title>Helping Hands</title>
+        <meta name='description' content="Find local resources to help immigrants in the Grand Rapids community"/>
+     <meta name='keywords' content='Immigration, legal, childcare, Grand Rapids, food, medical help'/>
+      </Helmet>
       <FixedNav />
       <Routes>
         <Route path="/childcare" element={<Childcare />} />

@@ -4,10 +4,22 @@ import DividingLine from "../media/DividingLine.jpg";
 import SNAP from "../media/SNAP.png";
 import MIBridgesLogo from "../media/MIBridgesLogo.jpg";
 import FeedingAmerica from "../media/FeedingAmerica.jpg";
+import { Helmet } from "react-helmet";
 
 function Food() {
   return (
     <div className="main-div">
+        <Helmet>
+        <title>Helping Hands</title>
+        <meta
+          name="description"
+          content="Find local childcare help and resources to help immigrants in the Grand Rapids community"
+        />
+        <meta
+          name="keywords"
+          content="childcare, Grand Rapids, help, babysitting, education, head start"
+        />
+      </Helmet>
       <h1 className="title">Food Resources</h1>
       <h2 className="know-your-rights">Assisted Funding Resources</h2>
 
