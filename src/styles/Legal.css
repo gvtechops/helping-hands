@@ -115,6 +115,7 @@ label {
   width: 90%;
   padding-left: 2%;
   margin-left: 1%;
+  margin-bottom: 4%;
   padding-top: 2.6%;
   text-align: left;
   float: left;
@@ -134,6 +135,13 @@ label {
   .legal-two-column {
     float: left;
     width: 50%;
+  }
+  .disclaimer-container {
+    margin-bottom: 1%;
+  }
+
+  .civicsquizquestions {
+    width: 60%;
   }
 
   .legal-two-column p {
@@ -172,6 +180,15 @@ label {
     width: 70%;
     height: 7vw;
   }
+  .civicsquizquestions {
+    width: 40%;
+  }
+
+  .exclamation-point-icon {
+    width: 2.5vw;
+    height: 2.5vw;
+  } 
+
   .disclaimer-container {
     width: 90%;
     padding-top: 1.2%;

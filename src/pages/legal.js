@@ -31,7 +31,6 @@ function Legal() {
           should consult with a licensed attorney.
         </div>
       </div>
-      
 
       <div className="containing-div2">
         <h2 className="know-your-rights">Legal Resources in Grand Rapids</h2>
