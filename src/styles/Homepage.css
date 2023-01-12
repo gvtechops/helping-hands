@@ -13,8 +13,8 @@
 
 .main-div {
   text-align: center;
-  margin-left: 7%;
-  margin-right: 7%;
+  margin-left: 3.5%;
+  margin-right: 3.5%;
 }
 
 .containing-div {
@@ -35,7 +35,7 @@
 }
 
 .about-us {
-  font-size: 1.1em;
+  font-size: 1em;
   font-weight: 700;
   text-align: center;
   letter-spacing: 0.05em;
@@ -61,7 +61,7 @@
   height: auto;
 }
 
-@media only screen and (min-width: 680px) {
+@media only screen and (min-width: 600px) {
   .three-column {
     float: left;
     width: 33.33%;
@@ -89,7 +89,7 @@
 
   .contact-two-column-paragraph {
     text-align: left;
-    font-size: 1em;
+    font-size: .7em;
     float: left;
     padding-left: 15px;
     padding-top: 3px;
@@ -115,9 +115,17 @@
   }
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1000px) {
   .widget-resize {
     width: 80%;
     height: auto;
+  }
+  .contact-two-column-paragraph {
+    font-size: .8em;
+  }
+  @media only screen and (min-width: 1200px) {
+    .contact-two-column-paragraph {
+      font-size: 1em;
+    }
   }
 }

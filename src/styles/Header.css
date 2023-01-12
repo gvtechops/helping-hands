@@ -22,7 +22,7 @@ h1 {
   color: white !important;
   text-align: center;
   letter-spacing: .08em;
-  font-size: 1.45vw !important;
+  font-size: 2.5vw !important;
 }
 
 .immigration-title {
@@ -41,7 +41,7 @@ h2 {
 
 .header-image {
   position: relative;
-  max-width: 100%;
+  max-width: 140%;
   height: auto;
   left: 0px;
   border: 0;
@@ -87,7 +87,7 @@ h2 {
 .navimage {
   width: 100%;
   height: auto;
-  opacity: 0.9;
+  opacity: 0.8;
 }
 
 /* Container holding the image and the text */
@@ -114,7 +114,9 @@ h2 {
     font-size: 0.65em;
   }
 
-
+  .header-description {
+    font-size: 1.5vw !important;
+  }
 
   .textshadow {
     position: absolute;
@@ -133,5 +135,8 @@ h2 {
 
   .textshadow {
     font-size: 0.8em;
+  }
+  .header-image {
+    max-width: 100%;
   }
 }

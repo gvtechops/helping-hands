@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400&display=swap");
+
 .legal-rights p {
   width: 80%;
   margin-left: auto;
@@ -21,8 +24,8 @@ input {
 .civicsquizquestions {
   margin-left: auto;
   margin-right: auto;
-  width: 24em;
-  height: 24em;
+  width: 80vw;
+  height: auto;
   color: #444444;
   background-color: #fafafa;
   padding: 25px;
@@ -60,7 +63,7 @@ label {
 }
 
 .wrong {
-  margin-top: 20%;
+  font-family: 'Montserrat' !important;
   color: darkred;
   font-weight: bold;
   font-family: "Manrope";
@@ -69,7 +72,8 @@ label {
 }
 
 .right {
-  padding-top: 20%;
+  padding-top: 30%;
+  font-family: 'Montserrat' !important;
   color: darkgreen;
   font-weight: bold;
   font-family: "Manrope";

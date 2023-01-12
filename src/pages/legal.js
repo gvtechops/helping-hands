@@ -33,11 +33,6 @@ function Legal() {
       </div>
       
 
-      <img
-        src={DividingLine}
-        className="div-line"
-        alt="Content dividing line"
-      />
       <div className="containing-div2">
         <h2 className="know-your-rights">Legal Resources in Grand Rapids</h2>
         <div className="two-column2">
